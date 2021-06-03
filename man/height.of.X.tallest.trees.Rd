@@ -43,6 +43,7 @@ wrapper for \code{aggregate}.
 \code{\link{lorey.height}}
 }
 \examples{
+library(sitree)
 height.of.X.tallest.trees(height = tr$height,
                                uplotID = tr$plot.id, 5)
                                

@@ -37,6 +37,7 @@ Clara Anton Fernandez (caf@nibio.no)
 \code{\link{height.of.X.tallest.trees}}
 }
 \examples{
+library(sitree)
 BA <- pi*(tr$dbh/2)^2
 lorey.height(BA, tr$height)
 lorey.height(BA, tr$height, tr$plot.id)

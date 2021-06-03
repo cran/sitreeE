@@ -36,7 +36,7 @@ Clara Anton Fernandez (caf@nibio.no)
 }
 
 \seealso{
-\code{\link{biomass.Norway}}, \code{\link{biomass.birch.M1988}}
+\code{\link{biomass.birch.M1988}}
 }
 \examples{
 biomass.birch.S2014(dbh.cm = c(10, 20), H.m = c(12, 16))

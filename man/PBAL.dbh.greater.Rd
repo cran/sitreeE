@@ -38,6 +38,7 @@ Cara Antón-Fernández (email: caf@nibio.no)
  \code{\link{PBAL}}
 }
 \examples{
+library(sitree)
 PBAL.dbh.greater(c(100,89,51,74,4), 3)
 
 aggregate(dbh ~ plot.id, data = tr, FUN = PBAL.dbh.greater, dbh.mm.diff = 2)
