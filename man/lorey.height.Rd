@@ -1,6 +1,5 @@
 \name{lorey.height}
 \alias{lorey.height}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Lorey's height
 }

@@ -10,7 +10,6 @@ It attemps to convert the plot level information to a data.frame/data.list forma
 \usage{
 PlotDataToLong(pd)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{pd}{
 A list with plot information. It especifically looks for two elements 'stand.age.years' and 'management'.
@@ -25,25 +24,25 @@ It returns a data.table with all vector from pd as columns, and dataframes melte
 \examples{
 library(sitree)
 
-##result.sitree <- sitree (tree.df   = tr,stand.df  = fl,
-## functions = list(fn.growth     ='grow.dbhinc.hgtinc',
-## fn.mort       ='mort.B2007',
-## fn.recr       ='recr.BBG2008',
-## fn.management ='management.prob',
-## fn.tree.removal ='mng.tree.removal',
-## fn.modif      = NULL,
-## fn.prep.common.vars ='prep.common.vars.fun'),
-## n.periods = 5,
-## period.length = 5,mng.options = NA,
-## print.comments = FALSE,
-## fn.dbh.inc = "dbhi.BN2009",
-## fn.hgt.inc =  "height.korf",
-## species.spruce = c(1, 2, 3),
-## species.pine = c(10, 11, 20, 21, 29),species.harw = c(30, 31),
-## fun.final.felling = "harv.prob",
-## fun.thinning      = "thin.prob",per.vol.harv = 0.83)
+result.sitree <- sitree (tree.df   = tr,stand.df  = fl,
+                         functions = list(fn.growth     ='grow.dbhinc.hgtinc',
+                                          fn.mort       ='mort.B2007',
+                                          fn.recr       ='recr.BBG2008',
+                                          fn.management ='management.prob',
+                                          fn.tree.removal ='mng.tree.removal',
+                                          fn.modif      = NULL,
+                                          fn.prep.common.vars ='prep.common.vars.fun'),
+                         n.periods = 5,
+                         period.length = 5,mng.options = NA,
+                         print.comments = FALSE,
+                         fn.dbh.inc = "dbhi.BN2009",
+                         fn.hgt.inc =  "height.korf",
+                         species.spruce = c(1, 2, 3),
+                         species.pine = c(10, 11, 20, 21, 29),species.harw = c(30, 31),
+                         fun.final.felling = "harv.prob",
+                         fun.thinning      = "thin.prob",per.vol.harv = 0.83)
 
-## PlotDataToLong(result.sitree$plot.data)
+PlotDataToLong(result.sitree$plot.data)
 
 }
 

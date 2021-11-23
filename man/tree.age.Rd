@@ -12,7 +12,6 @@ area, site index, species, and development class.
 tree.age(stand.age.years, plot.id, tree.BA.m2, dbh.mm,
 SI.spp, SI.m, spp, dev.class, apply.correction = TRUE)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{stand.age.years}{
 The age of the stand in years.

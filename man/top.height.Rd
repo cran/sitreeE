@@ -1,6 +1,5 @@
 \name{top.height}
 \alias{top.height}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Top height of the n thickest trees
 }
@@ -10,7 +9,6 @@ Average height of the n thickest trees per ha
 \usage{
 top.height(thickness, height, num.trees.per.ha, plot.id, plot.size.m2)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{thickness}{
 A vector with the thickness for every tree. Other variables can be used instead to thickness. This is only used to order the trees.

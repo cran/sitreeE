@@ -1,6 +1,6 @@
 Package: sitreeE
-Version: 0.0-7
-Date: 2021-06-01
+Version: 0.0-8
+Date: 2021-11-22
 Title: Sitree Extensions
 Authors@R: c(person("Clara", "Anton Fernandez", role = c("aut", "cre"),
 		     email = "caf@nibio.no"))
@@ -13,6 +13,6 @@ License: GPL (>= 2)
 Encoding: UTF-8
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2021-06-03 08:34:16 UTC; clara
+Packaged: 2021-11-23 09:46:22 UTC; clara
 Repository: CRAN
-Date/Publication: 2021-06-03 09:10:02 UTC
+Date/Publication: 2021-11-23 19:10:02 UTC

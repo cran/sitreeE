@@ -1,6 +1,5 @@
 \name{PBAL}
 \alias{PBAL}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Basal area of larger trees
 }
@@ -10,10 +9,9 @@ It calculates the basal area of larger trees for a plot.
 \usage{
 PBAL(BA)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{BA}{
-A vector of trees basal area
+A vector of tree's basal area.
 }
 }
 

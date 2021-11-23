@@ -1,6 +1,5 @@
 \name{AM2016ClimateSensitiveSINorway}
 \alias{AM2016ClimateSensitiveSINorway}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Climate-sensitive site index models for Norway
 }
@@ -12,7 +11,6 @@ Norway as described in Antón-Fernández et al. (2016).
 \usage{
 AM2016ClimateSensitiveSINorway(soilquality, t.early.summer, waterbal, SI.spp)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{soilquality}{
 A factor with levels 1 to 5 indicating the soilquality category. 1
@@ -34,7 +32,9 @@ SI species, that is, the species for which SI should be calculated. 1 = spruce, 
 Returns a vector with the estimated SI. 
 }
 \references{
-Anton-Fernandez, Clara, Blas Mola-Yudego, Lise Dalsgaard, and Rasmus Astrup. 2016. “Climate-Sensitive Site Index Models for Norway.” Canadian Journal of Forest Research 46 (6)
+Anton-Fernandez, Clara, Blas Mola-Yudego, Lise Dalsgaard, and Rasmus
+Astrup. 2016. “Climate-Sensitive Site Index Models for Norway.” Canadian
+Journal of Forest Research 46 (6). doi: 10.1139/cjfr-2015-0155
 
 }
 \author{

@@ -1,6 +1,5 @@
 \name{height.of.X.tallest.trees}
 \alias{height.of.X.tallest.trees}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Mean height of X tallest trees
 }
@@ -11,7 +10,6 @@ variable (e.g. the plot ID)
 \usage{
 height.of.X.tallest.trees(height, uplotID, num.trees)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{height}{
 A vector with heights

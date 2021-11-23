@@ -1,16 +1,14 @@
 \name{biomass.norway.sitree}
 \alias{biomass.norway.sitree}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Calculates biomass for trees using the Norwegian biomass equations
 }
 \description{
-Calculates biomass 
+Calculates biomass for trees using the Norwegian biomass equations.
 }
 \usage{
 biomass.norway.sitree(dbh.mm, height.dm, tree.sp)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{dbh.mm}{
 Diameter at breast height in mm.

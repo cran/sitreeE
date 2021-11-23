@@ -1,6 +1,6 @@
 \name{PBAL.dbh.greater}
 \alias{PBAL.dbh.greater}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
 Basal area of larger trees which are at least X cm larger than the tree
 of interest 
@@ -12,7 +12,6 @@ least X (in the same units as dbh) larger than the tree of interest for a list o
 \usage{
 PBAL.dbh.greater(dbh.mm, dbh.mm.diff)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{dbh.mm}{
 a vector of dbh in mm
@@ -32,7 +31,6 @@ It returns a list with the basal area of larger trees.
 \author{
 Cara Antón-Fernández (email: caf@nibio.no)
 }
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
  \code{\link{PBAL}}
