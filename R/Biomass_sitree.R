@@ -5,7 +5,7 @@ biomass.sitree <- function(tr, plot.data){
 period <- i.height.dm <- tree2ha <- i.tree2ha <- tree.sp <- i.tree.sp <- NULL
 
 
-  if (class(tr) == 'trList') {
+  if (inherits(tr, "trList")) {
     dbh.mm <- data.table(tr$data$dbh.mm)
     height.dm <- data.table(tr$data$height.dm)
     dbh.mm <- data.table(dbh.mm,

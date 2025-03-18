@@ -6,7 +6,7 @@ volume.sitree <- function(tr, plot.data){
 ## jsut to make CRAN check happy
 period <- i.height.dm <- kom <- i.kom <- tree2ha <- i.tree2ha <- tree.sp <- i.tree.sp <- volume.norway <- NULL
 
-  if (class(tr) == 'trList') {
+  if (inherits(tr, "trList")) {
     dbh.mm <- data.table(tr$data$dbh.mm)
     height.dm <- data.table(tr$data$height.dm)
     dbh.mm <- data.table(dbh.mm,
